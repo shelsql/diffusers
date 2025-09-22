@@ -30,3 +30,7 @@ When running for the first time, the script will first download models from hugg
 **Test results on 4090 machine:** 1:57 to load checkpoints, 2:03 to run inference.
 
 #### Wan 2.2 5B TI2V with Flash-Attention-3
+```bash
+python test_fa3.py
+```
+Currently uses Option 1 from [here](https://chatgpt.com/share/68c5c65f-b414-8005-8b1d-678a0ca91050), **not tested** because 4090 can't run FA3.
