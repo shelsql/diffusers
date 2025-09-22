@@ -11,4 +11,4 @@ git clone https://github.com/Dao-AILab/flash-attention.git
 cd flash-attention/hopper
 pip install ninja packaging
 pip install .
-cd diffusers
+cd ../diffusers
